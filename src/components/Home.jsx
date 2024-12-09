@@ -16,7 +16,7 @@ function Home(){
         <>
         <h1>Hello World!</h1>
         <h2>{count}</h2>
-        <button onClick={decrement} className='gap-2'>-</button>
+        <button onClick={decrement} className=''>-</button>
         <button onClick={increment}>+</button>
         </>
     )
