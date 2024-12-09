@@ -9,6 +9,15 @@ function App() {
   return (
     <>
       <Home />
+      <div className='calculator-grid'>
+        <div>
+          <div>
+            <div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

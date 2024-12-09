@@ -12,13 +12,19 @@ function Home(){
         setCount(count => count - 1)
     }
 
+    
+
     return (
-        <>
+        <div>
         <h1>Hello World!</h1>
-        <h2>{count}</h2>
-        <button onClick={decrement} className=''>-</button>
-        <button onClick={increment}>+</button>
-        </>
+        <h2 className='items-center text-3xl'>{count}</h2>
+        <button onClick={decrement} className='mx-4'>-</button>
+        <button onClick={increment} className='mx-4'>+</button>
+        <button>=</button>
+        <button>x</button>
+        <button></button>
+        <button></button>
+        </div>
     )
 }
 
