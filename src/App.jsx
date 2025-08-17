@@ -2,12 +2,15 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import Home from './components/home'
+import Calculator from './components/Calculator'
 
 function App() {
 
   return (
     <>
-      <h1>Hello World!</h1>
+      <Home />
+      <Calculator />
     </>
   )
 }
