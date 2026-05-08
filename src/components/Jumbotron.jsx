@@ -1,7 +1,7 @@
 function Jumbotron() {
     return (
         <>
-        <p>Welcome</p>
+        <p>Welcome to Calculator Online</p>
         </>
     )
 }

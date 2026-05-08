@@ -38,7 +38,7 @@ function Calculator() {
         {/* Calculator Main Base */}
         <div className="calcBody">
           <div className="flex items-center justify-center w-full">
-            <input className="mx-4 my-6 border-1 rounded-md" value={value} onChange={() => {}} name="number" id="field" />
+            <input className="mx-4 my-6 border-1 rounded-md w-2xl" value={value} onChange={() => {}} name="number" id="field" />
           </div>
 
           <div className="m-4 grid grid-cols-4 gap-2">
@@ -46,7 +46,8 @@ function Calculator() {
             <button onClick={()=> handleButton('7')}>7</button>
             <button onClick={()=> handleButton('CE')}>CE</button>
             <button onClick={()=> handleButton('C')}>C</button>
-            <button onClick={()=> handleButton('Delete')}>delete icon</button><button>%</button>
+            <button onClick={()=> handleButton('Delete')}>delete icon</button>
+            <button onClick={()=> handleButton('%')}>%</button>
             <button onClick={()=> handleButton('8')}>8</button>
             <button onClick={()=> handleButton('9')}>9</button>
             <button onClick={()=> handleButton('/')}>/</button>
