@@ -46,7 +46,7 @@ function Calculator() {
             <button onClick={()=> handleButton('7')}>7</button>
             <button onClick={()=> handleButton('CE')}>CE</button>
             <button onClick={()=> handleButton('C')}>C</button>
-            <button onClick={()=> handleButton('Delete')}>delete icon</button>
+            <button onClick={()=> handleButton('Delete')}>Delete Icon</button>
             <button onClick={()=> handleButton('%')}>%</button>
             <button onClick={()=> handleButton('8')}>8</button>
             <button onClick={()=> handleButton('9')}>9</button>
